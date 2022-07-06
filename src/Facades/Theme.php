@@ -1,5 +1,5 @@
 <?php
-namespace Caffeinated\Themes\Facades;
+namespace Uchup07\Themes\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -12,6 +12,6 @@ class Theme extends Facade
 	 */
 	protected static function getFacadeAccessor()
 	{
-		return 'caffeinated.themes';
+		return 'uchup07.themes';
 	}
 }

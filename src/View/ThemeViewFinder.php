@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Themes\View;
+namespace Uchup07\Themes\View;
 
 use Illuminate\View\FileViewFinder;
-use Caffeinated\Themes\Facades\Theme;
+use Uchup07\Themes\Facades\Theme;
 
 class ThemeViewFinder extends FileViewFinder
 {

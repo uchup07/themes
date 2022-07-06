@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Themes;
+namespace Uchup07\Themes;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Collection;
-use Caffeinated\Themes\Concerns\RegistersViewLocations;
+use Uchup07\Themes\Concerns\RegistersViewLocations;
 
 class Theme extends Collection
 {

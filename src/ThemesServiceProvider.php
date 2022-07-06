@@ -1,12 +1,12 @@
 <?php
 
-namespace Caffeinated\Themes;
+namespace Uchup07\Themes;
 
 use View;
-use Caffeinated\Themes\Manifest;
+use Uchup07\Themes\Manifest;
 use Illuminate\Support\ServiceProvider;
-use Caffeinated\Themes\View\ThemeViewFinder;
-use Caffeinated\Themes\Console\GenerateTheme;
+use Uchup07\Themes\View\ThemeViewFinder;
+use Uchup07\Themes\Console\GenerateTheme;
 
 class ThemesServiceProvider extends ServiceProvider
 {
@@ -55,7 +55,7 @@ class ThemesServiceProvider extends ServiceProvider
 	 */
 	public function provides()
 	{
-		return ['caffeinated.themes', 'view.finder'];
+		return ['uchup07.themes', 'view.finder'];
 	}
 
 	/**
@@ -63,7 +63,7 @@ class ThemesServiceProvider extends ServiceProvider
 	 */
 	protected function registerServices()
 	{
-		$this->app->singleton('caffeinated.themes', function($app) {
+		$this->app->singleton('uchup07.themes', function($app) {
             $themes = [];
             $items  = [];
 
@@ -91,11 +91,11 @@ class ThemesServiceProvider extends ServiceProvider
      */
     protected function registerNamespaces()
     {
-        $themes = app('caffeinated.themes')->all();
+        $themes = app('uchup07.themes')->all();
 
         foreach ($themes as $theme) {
             $namespace = $theme->get('slug');
-			$hint      = app('caffeinated.themes')->path('resources/views', $theme->get('slug'));
+			$hint      = app('uchup07.themes')->path('resources/views', $theme->get('slug'));
 
             app('view')->addNamespace($namespace, $hint);
         }

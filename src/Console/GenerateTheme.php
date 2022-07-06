@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Themes\Console;
+namespace Uchup07\Themes\Console;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Console\Command;

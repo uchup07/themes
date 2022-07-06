@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Themes\Concerns;
+namespace Uchup07\Themes\Concerns;
 
 use Illuminate\Support\Str;
 

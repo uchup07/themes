@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Themes;
+namespace Uchup07\Themes;
 
 use Exception;
 use Illuminate\Support\Collection;

@@ -1,5 +1,5 @@
 {
-    "name": "caffeinated/themes",
+    "name": "uchup07/themes",
     "description": "Laravel Themes",
     "keywords": ["themes", "laravel", "caffeinated", "blade"],
     "license": "MIT",
@@ -12,24 +12,24 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0"
+        "php": "^7.3|^8.0|^8.1",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
     },
     "autoload": {
         "files": [
             "helpers/themes.php"
         ],
         "psr-4": {
-            "Caffeinated\\Themes\\": "src/"
+            "Uchup07\\Themes\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Themes\\ThemesServiceProvider"
+                "Uchup07\\Themes\\ThemesServiceProvider"
             ],
             "aliases": {
-                "Theme": "Caffeinated\\Themes\\Facades\\Theme"
+                "Theme": "Uchup07\\Themes\\Facades\\Theme"
             }
         }
     }
