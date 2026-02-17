@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this package adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Laravel 11 support
+
+### Changed
+- PHP constraint updated to support Laravel 6 minimum (`^7.2.5|^8.0`)
 
 ## [7.2.0] - 2021-03-24
 ### Added
