@@ -40,7 +40,7 @@ class Manifest extends Collection
      * @param  string  $path
      * @return static
      */
-    public static function make($path = null)
+    public static function make($path = null, ...$args)
     {
         return new static($path);
     }
